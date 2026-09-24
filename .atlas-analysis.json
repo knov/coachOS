@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Coaching OS",
+  "projectDescription": "A personal operating system for coaches to evolve their craft, run their business, and manage compartmentalized knowledge bases for every client.",
   "theme": "almond",
-  "name": "Coaching OS",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -60,14 +58,15 @@
       }
     ]
   },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Get Started",
-      "href": "/getting-started/quick-start"
-    }
-  },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "Coaching methodology and framework library",
+    "Session structure templates and guides",
+    "Per-client compartmentalized knowledge bases",
+    "Business operations playbooks",
+    "Client lifecycle management",
+    "Pricing and package documentation",
+    "Progress tracking and reflection tools",
+    "Personal development and craft evolution"
+  ],
+  "publicApiSurface": []
 }
